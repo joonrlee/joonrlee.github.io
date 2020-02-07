@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html id="society">
+
+<head>
+    <title>Barber Society</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/jquery-3.3.1.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <a href="index.html"><img id="header" src="img/header.png" /></a>
+    <div class="navigation">
+        <div class="dropdown">
+            <a href="index.html"><button id="society_button" class="dropbtn">SOCIETY</button></a>
+        </div>
+        <div class="dropdown">
+            <button id="equipment_button" class="dropbtn">EQUIPMENT</button>
+            <div class="dropdown-content">
+                <a id="clipper_button" href="equipment_clipper.html">Clipper</a>
+                <a id="guard_button" href="equipment_guard.html">Guard</a>
+                <a id="scissor_button" href="equipment_scissor.html">Scissor</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button id="hairstyle_button" class="dropbtn">HAIRSTYLE</button>
+            <div class="dropdown-content">
+                <a id="midfade_button" href="midfade_step1.html">Mid-Fade</a>
+                <a id="taper" href="#">Taper</a>
+                <a id="pompadour" href="#">Pompadour</a>
+                <a id="afro" href="#">Afro</a>
+            </div>
+        </div>
+    </div>
+    <section id="signup">
+        <img id="home" src="img/society.png">
+        <form>
+            <input type="submit" id="submit" value="Subscribe" onclick="subscribe()">
+            <input type="text" id="mail" placeholder="Email">
+        </form>
+    </section>
+    <script src="js/barbersociety_player.js"></script>
+</body>
+
+</html>
